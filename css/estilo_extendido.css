@@ -1,0 +1,168 @@
+/*CSS general de elementos*/
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+/*Definiciones de selectores*/
+body{
+    background-color: white;
+    color: #222;
+    font: 200 14px 'Poppins', sans-serif
+}
+h1{
+    font-size: 42px;
+    font-weight: 400;
+    
+}
+h2{
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: 50px;
+    
+}
+h3 {
+    color:#ffc900;
+    font-weight: 200;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+   
+nav ul{
+      display: inline-block;
+}
+nav ul li{
+    padding-top: 12px;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+thead{
+    background-color: #222;
+    color: white;
+}
+td{
+    min-width: 150px;
+}
+li{
+    color: black;
+    list-style: none;
+    float:left;
+    
+}
+i{
+    margin-right: 5px;
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color:white;
+}
+
+
+/*Definiciones de clases y ids*/
+#educacion{
+    background-color: #222;
+    color: white;
+    list-style: none;
+}
+#experiencia{
+    border-top: 1px solid #ffc900;
+    background-color: #222;
+    color: white;
+}
+#comentario{
+    background-color: #ffc900;
+    color: #222;
+}
+
+.seccion{
+    padding: 10px 100px 10px 100px;
+}
+.enlace:hover{
+    color: #ffc900;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ima{
+    float: left;
+}
+.tb{
+    float: left;
+}
+.gridedu{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+    
+}
+.cardedu{
+    background-color: #333333;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+.cardedu img, .cardedu iframe{
+    border-radius: 15px 15px 0 0;
+}
+.cardedu h2{
+    margin-bottom: 5px;
+}
+.cardedu h3{
+    margin-bottom: 20px;
+}
+.cardedu p{
+    margin-bottom: 20px;
+}
+.cardedu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardedu li{
+    height: 30px;
+}
+.cardedu .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
+/*Formulario*/
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
