@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Overpass+Mono&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a9da2e383.js" crossorigin="anonymous"></script>
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="myNav">
+            <ul>
+                <li onclick="resetearPagina()"><a href="#Inicio" ><i class="fa-solid fa-house"></i></a>Inicio</li>
+                <li><a href="#Dolar"><i class="fa-solid fa-money-bill"></i></a>Dolar</li>
+                <li><a href="#Cotizacion"><i class="fa-solid fa-chart-simple"></i></a>Cotización</li>
+                <li><a href="#Información"><i class="fa-solid fa-circle-info"></i></a>Información</li>
+                <li><a href="#Contacto"><i class="fa-solid fa-envelope"></i></a>Contacto</li>
+            </ul>
+            <div class="legalidad">
+                <p>Este es un sitio meramente informativo, y no brinda consejo, recomendación, asesoramiento o invitación de ningún tipo, ni de ninguna clase o naturaleza, para realizar actos y/u operaciones de cualquier tipo, clase o naturaleza. Las fuentes de información aquí citadas son de público acceso. Los cuadros mostrados en este sitio son elaborados sobre la base de los datos de público acceso que en cada caso se indica, y constituyen propiedad intelectual amparada por la Ley N°11.723. Los titulares de este sitio deslindan toda responsabilidad respecto de la posible falta de precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los datos y/o de las fuentes de información de público acceso tenidos en consideración para la elaboración del contenido de este sitio. Los titulares de este sitio no garantizan la precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los datos mostrados en este sitio. Los titulares de este sitio deslindan toda responsabilidad respecto del uso que puedan llegar a dar a la información y/o a los datos incluídos en el contenido de este sitio quienes accedan a este último.</p>
+        </div>
+        </nav>
+    </div>
+    <div class="main-content">
+        <article>
+            <!--Bloque de inicio-->
+            <section id="Inicio">
+                <!--Se quiere reiniciar la pagina-->
+                <script>
+                    function resetearPagina(){
+                        location.reload()
+                    }
+                </script>
+            </section>
+           <!--Fin de el bloque-->
+
+            <!--Bloque de el dolar-->
+            <section id="Dolar" class="seccion">
+                
+                <div class="tarjeta">
+                    <h2>Dólar Libre</h2>
+                    <p><span>Compra</span></p>
+                    <strong>$950,00 ARS</strong>
+                    <p><span>Venta</span></p>
+                    <strong>$1000,00 ARS</strong>
+                    <p class="info"> Actualizado al 29/12/23</p>
+
+                </div>
+                <div class="tarjeta">
+                    <h2>Dólar tarjeta</h2>
+                    <p><span>Compra</span></p>
+                    <strong>$1351,46 ARS</strong>
+                    <p><span>Venta</span></p>
+                    <strong>$1351,46 ARS</strong>
+                    <p class="info">Actualizado al 29/12/23</p>
+                    
+                </div>
+                <div class="tarjeta">
+                    <h2>Dólar Oficial</h2>
+                    <p><span>Compra</span></p>
+                    <strong>$788,59 ARS</strong>
+                    <p><span>Venta</span></p>
+                    <strong>$844,66 ARS</strong>
+                    <p class="info">Actualizado al 29/12/23</p>
+                    
+                </div>
+                <div class="tarjeta" >
+                    <h2>Dólar MEP</h2>
+                    <p><span>Compra</span></p>
+                    <strong>$953,48 ARS</strong>
+                    <p><span>Venta</span></p>
+                    <strong>$953,48 ARS</strong>
+                    <p class="info">Actualizado al 29/12/23</p>
+                </div>
+            </section>
+            <!--Fin de el bloque-->
+
+            <!--Bloque de las cotizaciones-->
+            <section id="Cotizacion" class="seccion">
+                <table>
+                
+                    <thead>
+                        <tr>
+                            <th>Moneda</th>
+                            <th>Cotizaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dólar</td>
+                            <td>$844,66 ARS</td>
+                        </tr>
+                        <tr>
+                            <td>Euro</td>
+                            <td>$906,00 ARS</td>
+                        </tr>
+                        <tr>
+                            <td>Peso Chileno</td>
+                            <td>$0,912809 ARS</td>
+                        </tr>
+                        <tr>
+                            <td>Real</td>
+                            <td>$166,552 ARS</td>
+                        </tr>
+                        <tr>
+                            <td>Yen</td>
+                            <td>5,71161 ARS</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </section>
+            <!--fin de el bloque-->
+
+            <!--Bloque de informacion relevante-->
+            <section id="Información" class="seccion">
+                    <div class="card">
+                        <img src="/Imagenes/images.jpg" alt="Dolar">
+                        <h2>Dolar</h2>
+                        <div class="line"></div>
+                        <div class="texto">
+                            <p>El dólar blue, dólar paralelo o dólar negro, son eufemismos que se utilizan en Argentina para referirse al dólar estadounidense comprado ilegalmente en el mercado negro.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Imagenes/peso-argentino-en-una-maquina-de-computo-wwjk7a.png" alt="Peso">
+                        <h2>Peso</h2>
+                        <div class="line"></div>
+                       <div class="texto"><p>El peso es la moneda de curso legal de la República Argentina desde el año 1992 </p></div>
+                    </div>  
+                    <div class="card">
+                      <iframe width="200" src="https://www.youtube.com/embed/wE4GVWCpKRY?si=oQ_29ZjfVdsPpvxV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <h2>Información</h2>
+                      <div class="line"></div>
+                      <div class="texto"> <p>Breve explicacion de el dolar blue en Argentina</p></div>
+                    </div>  
+                    <div class="card">
+                        <iframe width="200" src="https://www.youtube.com/embed/dXXnrKHzJlk?si=NOK_KpeBQ9WYwUTj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <h2>Cuevas</h2>
+                        <div class="line"></div>
+                        <div class="texto"> <p>Las cuevas son el lugar donde se conseguia el dolar blue o libre con mas facilidad, cuando este era ilegal.</p></div>
+                    </div>
+            </section>
+            <!--fin de el bloque-->
+            <!--Bloque de formulario-->
+            <section id="Contacto" class="seccion">
+                
+             <div class="formulario">
+                <h3>Contacto</h3>
+                <form action="#" method="post">
+                    <div class="form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="text" id="email" name="email" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+             </div>
+            </section>
+            <!--fin de el bloque-->
+        </article>
+    </div>
+</body>
+</html>

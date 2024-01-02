@@ -1,0 +1,220 @@
+/*CSS */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+span{
+    text-align: justify;
+    color: #222;
+    font-size: 11px;
+}
+strong{
+    text-align: justify;
+    color: #222;
+    font-size: 20px;
+}
+h2{
+    color: #222;
+    font-size: 16px;
+}
+
+li:hover{
+    color: #EABE3F;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+a:any-link{
+    color: white;
+}
+i{
+    color: #EABE3F;
+}
+li {
+    padding: 10px;
+    height: 100px; 
+}
+li a i{
+    margin-right: 20px;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th{
+    background-color: #222;
+    color: white;
+    font-size: 20px;
+}
+td{
+    background-color: #f2f2f2;
+    color: #222;
+    font-size: 20px;
+}
+th, td{
+    border: 1px solid #333;
+    padding: 8px;
+    margin: 10px;
+    text-align: left;
+}
+form {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+input, textarea {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button {
+    background-color: #EABE3F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    grid-column: 1 / span 2;
+}
+
+button:hover {
+    background-color: #222;
+}
+
+/*Clases & ID'S*/
+#myNav{
+    display: flex;
+    flex-direction: column;
+}
+#Dolar{
+    background-color: #000080;
+    display: flex;
+    justify-content: space-between;
+    justify-self: right;
+}
+#Cotizacion{
+    background-color: #333;
+}
+#Información{
+    background-color: #000080;
+    display: flex;
+    justify-content: space-around;
+}
+#Contacto{
+    background-color: #333;
+}
+
+/*Dolar*/
+.tarjeta{
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.info{
+    font-size: 10px;
+    justify-content: flex-end;
+    color: #222;
+}
+/*Informacion*/
+.line{
+    border: 1px solid #222;
+}
+.texto{
+    padding: 10px;
+    font-size: 15px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+}
+.card img{
+    width: 200px;
+
+}
+.card img,.card iframe{
+    border-radius: 8px 8px 0 0;
+}
+.card h2,.card p{
+    padding: 10px;
+    margin: 0;
+    color: #222;
+}
+.card h2{
+    font-size: 15px;
+}
+
+/* General*/
+.seccion{
+    padding: 20px 200px 20px 200px;
+    margin-top: -20px;
+    margin-right: -20px;
+}
+/*Navegador*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh; 
+    width: 20%;
+    background-color: #333;
+    padding: 20px;
+    border-right: 1px solid #222;
+    color: white;
+    margin: 0;
+}
+.legalidad{
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 250px;
+}
+/*Bloques*/
+.main-content{
+    margin-left: 220px;
+    padding: 0;
+}
+
+/*Formulario*/
+.formulario {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
